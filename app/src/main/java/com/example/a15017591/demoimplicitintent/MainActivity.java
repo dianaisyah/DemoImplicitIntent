@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 email.putExtra(Intent.EXTRA_TEXT,
                         editTextMessage.getText());
                 // This MIME type indicates email
+                //
                 email.setType("message/rfc822");
                 // createChooser shows user a list of app that can handle
                 // this MIME type, which is, email
